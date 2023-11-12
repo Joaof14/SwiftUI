@@ -1,0 +1,414 @@
+[
+    {
+        "id": "c63a6d00b06ba02d",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "cd205a51cd94dcad",
+        "type": "http in",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "url": "/alimentosalvar",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 240,
+        "y": 140,
+        "wires": [
+            [
+                "902be6bad89953dd"
+            ]
+        ]
+    },
+    {
+        "id": "ff67aeb2406c6852",
+        "type": "http response",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1030,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "36e7e05e12936da3",
+        "type": "debug",
+        "z": "c63a6d00b06ba02d",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1020,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "54b9f3bbed403e0c",
+        "type": "http in",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "url": "/alimentoler",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "c20e89b205936a44"
+            ]
+        ]
+    },
+    {
+        "id": "b8d108b6a75aeb05",
+        "type": "http response",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 710,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "8beb670af5250774",
+        "type": "debug",
+        "z": "c63a6d00b06ba02d",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 590,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "7ae432e90286e733",
+        "type": "http in",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "url": "/alimentoatualisar",
+        "method": "put",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "6fdb6e39f34eefe5"
+            ]
+        ]
+    },
+    {
+        "id": "adb1a3cbd6692590",
+        "type": "http response",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 750,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "3b79fdfd0df886ea",
+        "type": "debug",
+        "z": "c63a6d00b06ba02d",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 750,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "b668c0875b9e8368",
+        "type": "http in",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "url": "/alimentodeletar",
+        "method": "delete",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 290,
+        "y": 800,
+        "wires": [
+            [
+                "9981d46391922cdd"
+            ]
+        ]
+    },
+    {
+        "id": "373e0f04e0f85e3f",
+        "type": "http response",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 850,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "ced9348fae6a741a",
+        "type": "debug",
+        "z": "c63a6d00b06ba02d",
+        "name": "debug 5",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 820,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "dd1f84872d5887ac",
+        "type": "comment",
+        "z": "c63a6d00b06ba02d",
+        "name": "Create",
+        "info": "",
+        "x": 70,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "96f8840128716a39",
+        "type": "comment",
+        "z": "c63a6d00b06ba02d",
+        "name": "Read",
+        "info": "",
+        "x": 70,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "72508ea282cf98d1",
+        "type": "comment",
+        "z": "c63a6d00b06ba02d",
+        "name": "Update",
+        "info": "",
+        "x": 70,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "59ed03051e4a6227",
+        "type": "comment",
+        "z": "c63a6d00b06ba02d",
+        "name": "Delete",
+        "info": "",
+        "x": 70,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "c20e89b205936a44",
+        "type": "cloudantplus in",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "cloudant": "4e9f95d74ddb3a8d",
+        "database": "alimentoprojeto",
+        "service": "_ext_",
+        "search": "_all_",
+        "design": "",
+        "index": "",
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "b8d108b6a75aeb05",
+                "8beb670af5250774"
+            ]
+        ]
+    },
+    {
+        "id": "6fdb6e39f34eefe5",
+        "type": "cloudantplus out",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "cloudant": "4e9f95d74ddb3a8d",
+        "database": "alimentoprojeto",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 560,
+        "y": 560,
+        "wires": [
+            [
+                "adb1a3cbd6692590",
+                "3b79fdfd0df886ea"
+            ]
+        ]
+    },
+    {
+        "id": "98863ec1314b900c",
+        "type": "cloudantplus out",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "cloudant": "4e9f95d74ddb3a8d",
+        "database": "alimentoprojeto",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "delete",
+        "x": 680,
+        "y": 800,
+        "wires": [
+            [
+                "373e0f04e0f85e3f",
+                "ced9348fae6a741a"
+            ]
+        ]
+    },
+    {
+        "id": "3e6577a699becb27",
+        "type": "cloudantplus out",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "cloudant": "4e9f95d74ddb3a8d",
+        "database": "alimentoprojeto",
+        "service": "_ext_",
+        "payonly": true,
+        "operation": "insert",
+        "x": 820,
+        "y": 100,
+        "wires": [
+            [
+                "ff67aeb2406c6852",
+                "36e7e05e12936da3"
+            ]
+        ]
+    },
+    {
+        "id": "65b70f1614959610",
+        "type": "split",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "splt": "/n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 550,
+        "y": 80,
+        "wires": [
+            [
+                "3e6577a699becb27"
+            ]
+        ]
+    },
+    {
+        "id": "902be6bad89953dd",
+        "type": "switch",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 140,
+        "wires": [
+            [
+                "65b70f1614959610"
+            ],
+            [
+                "3e6577a699becb27"
+            ]
+        ]
+    },
+    {
+        "id": "9981d46391922cdd",
+        "type": "switch",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "property": "payload.length",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "0",
+                "vt": "num"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 450,
+        "y": 880,
+        "wires": [
+            [
+                "dfa111f4863b942d"
+            ],
+            [
+                "98863ec1314b900c"
+            ]
+        ]
+    },
+    {
+        "id": "dfa111f4863b942d",
+        "type": "split",
+        "z": "c63a6d00b06ba02d",
+        "name": "",
+        "splt": "/n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 510,
+        "y": 800,
+        "wires": [
+            [
+                "98863ec1314b900c"
+            ]
+        ]
+    },
+    {
+        "id": "4e9f95d74ddb3a8d",
+        "type": "cloudantplus",
+        "host": "https://apikey-v2-1wqtkdecj91p0xubqpub22zkz98dy0ez8qp8bw9b6tx:9677f52c2107fc5f105e98c7035acacf@bbd3c0ee-d0c8-455b-bbd3-8d6d996c2c0a-bluemix.cloudantnosqldb.appdomain.cloud",
+        "name": "",
+        "useapikey": true
+    }
+]
