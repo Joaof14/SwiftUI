@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C18CE67C2AFACC9100F95DDC /* observ.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18CE67B2AFACC9100F95DDC /* observ.swift */; };
+		F3695A5F2AF02B4700E89277 /* NutriCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A5E2AF02B4700E89277 /* NutriCalcApp.swift */; };
+		F3695A612AF02B4700E89277 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A602AF02B4700E89277 /* ContentView.swift */; };
+		F3695A632AF02B4800E89277 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3695A622AF02B4800E89277 /* Assets.xcassets */; };
+		F3695A662AF02B4800E89277 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3695A652AF02B4800E89277 /* Preview Assets.xcassets */; };
+		F3695A6D2AF02C1E00E89277 /* Dieta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A6C2AF02C1E00E89277 /* Dieta.swift */; };
+		F3695A712AF02C4800E89277 /* VPerfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A702AF02C4800E89277 /* VPerfil.swift */; };
+		F3695A732AF02C6B00E89277 /* InfoAlimento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A722AF02C6B00E89277 /* InfoAlimento.swift */; };
+		F3695A752AF02C7F00E89277 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3695A742AF02C7F00E89277 /* Meta.swift */; };
+		F3DE2DC42AF9622100AF029E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE2DC32AF9622100AF029E /* Models.swift */; };
+		F3DE2DC62AF9737100AF029E /* InfoAlimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3DE2DC52AF9737100AF029E /* InfoAlimentos.swift */; };
+		FD9749592AFA9FF400D3EA48 /* LAlimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9749582AFA9FF400D3EA48 /* LAlimentos.swift */; };
+		FDD7D0762AF2B98000145B39 /* DadosRefeicao.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD7D0752AF2B98000145B39 /* DadosRefeicao.swift */; };
+		FDE164A82AF03AAE00C92E8F /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE164A72AF03AAE00C92E8F /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C18CE67B2AFACC9100F95DDC /* observ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = observ.swift; sourceTree = "<group>"; };
+		F3695A5B2AF02B4700E89277 /* NutriCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3695A5E2AF02B4700E89277 /* NutriCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriCalcApp.swift; sourceTree = "<group>"; };
+		F3695A602AF02B4700E89277 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F3695A622AF02B4800E89277 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3695A652AF02B4800E89277 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3695A6C2AF02C1E00E89277 /* Dieta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieta.swift; sourceTree = "<group>"; };
+		F3695A702AF02C4800E89277 /* VPerfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPerfil.swift; sourceTree = "<group>"; };
+		F3695A722AF02C6B00E89277 /* InfoAlimento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlimento.swift; sourceTree = "<group>"; };
+		F3695A742AF02C7F00E89277 /* Meta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		F3DE2DC32AF9622100AF029E /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F3DE2DC52AF9737100AF029E /* InfoAlimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoAlimentos.swift; sourceTree = "<group>"; };
+		FD9749582AFA9FF400D3EA48 /* LAlimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAlimentos.swift; sourceTree = "<group>"; };
+		FDD7D0752AF2B98000145B39 /* DadosRefeicao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosRefeicao.swift; sourceTree = "<group>"; };
+		FDE164A72AF03AAE00C92E8F /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3695A582AF02B4700E89277 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3695A522AF02B4700E89277 = {
+			isa = PBXGroup;
+			children = (
+				F3695A5D2AF02B4700E89277 /* NutriCalc */,
+				F3695A5C2AF02B4700E89277 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3695A5C2AF02B4700E89277 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3695A5B2AF02B4700E89277 /* NutriCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3695A5D2AF02B4700E89277 /* NutriCalc */ = {
+			isa = PBXGroup;
+			children = (
+				F3DE2DC32AF9622100AF029E /* Models.swift */,
+				C18CE67B2AFACC9100F95DDC /* observ.swift */,
+				F3695A5E2AF02B4700E89277 /* NutriCalcApp.swift */,
+				F3695A602AF02B4700E89277 /* ContentView.swift */,
+				FDE164A72AF03AAE00C92E8F /* Menu.swift */,
+				F3695A702AF02C4800E89277 /* VPerfil.swift */,
+				F3695A742AF02C7F00E89277 /* Meta.swift */,
+				F3695A6C2AF02C1E00E89277 /* Dieta.swift */,
+				FDD7D0752AF2B98000145B39 /* DadosRefeicao.swift */,
+				FD9749582AFA9FF400D3EA48 /* LAlimentos.swift */,
+				F3DE2DC52AF9737100AF029E /* InfoAlimentos.swift */,
+				F3695A622AF02B4800E89277 /* Assets.xcassets */,
+				F3695A642AF02B4800E89277 /* Preview Content */,
+			);
+			path = NutriCalc;
+			sourceTree = "<group>";
+		};
+		F3695A642AF02B4800E89277 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3695A722AF02C6B00E89277 /* InfoAlimento.swift */,
+				F3695A652AF02B4800E89277 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3695A5A2AF02B4700E89277 /* NutriCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3695A692AF02B4800E89277 /* Build configuration list for PBXNativeTarget "NutriCalc" */;
+			buildPhases = (
+				F3695A572AF02B4700E89277 /* Sources */,
+				F3695A582AF02B4700E89277 /* Frameworks */,
+				F3695A592AF02B4700E89277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriCalc;
+			productName = NutriCalc;
+			productReference = F3695A5B2AF02B4700E89277 /* NutriCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3695A532AF02B4700E89277 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F3695A5A2AF02B4700E89277 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F3695A562AF02B4700E89277 /* Build configuration list for PBXProject "NutriCalc final" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3695A522AF02B4700E89277;
+			productRefGroup = F3695A5C2AF02B4700E89277 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3695A5A2AF02B4700E89277 /* NutriCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3695A592AF02B4700E89277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3695A662AF02B4800E89277 /* Preview Assets.xcassets in Resources */,
+				F3695A632AF02B4800E89277 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3695A572AF02B4700E89277 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18CE67C2AFACC9100F95DDC /* observ.swift in Sources */,
+				F3DE2DC42AF9622100AF029E /* Models.swift in Sources */,
+				F3695A732AF02C6B00E89277 /* InfoAlimento.swift in Sources */,
+				F3DE2DC62AF9737100AF029E /* InfoAlimentos.swift in Sources */,
+				F3695A712AF02C4800E89277 /* VPerfil.swift in Sources */,
+				FDE164A82AF03AAE00C92E8F /* Menu.swift in Sources */,
+				F3695A6D2AF02C1E00E89277 /* Dieta.swift in Sources */,
+				FD9749592AFA9FF400D3EA48 /* LAlimentos.swift in Sources */,
+				F3695A612AF02B4700E89277 /* ContentView.swift in Sources */,
+				F3695A5F2AF02B4700E89277 /* NutriCalcApp.swift in Sources */,
+				F3695A752AF02C7F00E89277 /* Meta.swift in Sources */,
+				FDD7D0762AF2B98000145B39 /* DadosRefeicao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F3695A672AF02B4800E89277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3695A682AF02B4800E89277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3695A6A2AF02B4800E89277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = GJXKTD7NP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.NutriCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3695A6B2AF02B4800E89277 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = GJXKTD7NP5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Anderson.NutriCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3695A562AF02B4700E89277 /* Build configuration list for PBXProject "NutriCalc final" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3695A672AF02B4800E89277 /* Debug */,
+				F3695A682AF02B4800E89277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3695A692AF02B4800E89277 /* Build configuration list for PBXNativeTarget "NutriCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3695A6A2AF02B4800E89277 /* Debug */,
+				F3695A6B2AF02B4800E89277 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3695A532AF02B4700E89277 /* Project object */;
+}
